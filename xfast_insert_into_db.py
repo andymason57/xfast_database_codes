@@ -17,7 +17,7 @@ def tarup_products(lcurve_obsID, light_curve_dir):
         print "Error %d: %s" % (e.args[0],e.args[1])
         sys.exit(1)
 
-#read in tarred test dir file as binary object and write to table tarred_products 
+#read in tarred test dir file as binary object and write to table tarred_products sss
 
 
 def insert_background_lightcurve(bkg_lc_obsID, bkg_lc_obsNo, bkg_lc_energy, bkg_lc_time, bkg_lc_fits_file):
